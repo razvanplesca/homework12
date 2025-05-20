@@ -4,7 +4,7 @@ public class SecretKeyProviderImpl implements SecretKeyProvider {
 
     private final String url = "jdbc:postgresql://localhost:5432/postgres";
     private final String user = "postgres";
-    private final String password = "#Barcelona199";
+    private final String password = "password";
 
     @Override
     public String getDatabaseUrl() {
